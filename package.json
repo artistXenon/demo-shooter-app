@@ -1,0 +1,26 @@
+{
+  "name": "demo-app",
+  "private": true,
+  "version": "0.0.0",
+  "description": "demo application to showcase artistic-engine",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "artistic-engine",
+    "game",
+    "shooting"
+  ],
+  "author": "Ailre",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "artistic-engine": "^1.2.10"
+  }
+}
